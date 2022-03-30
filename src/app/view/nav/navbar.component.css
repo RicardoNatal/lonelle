@@ -1,0 +1,18 @@
+.total {
+  background-color: var(--color2);
+}
+
+.options1, .logo, .options2 {
+  color: var(--color1);
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo h1 {
+  font-family: 'Lora', serif;
+  letter-spacing: 5px;
+  font-weight: 300;
+  font-size: 2.2rem;
+}

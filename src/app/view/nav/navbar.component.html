@@ -1,1 +1,15 @@
-<p>navbar works!</p>
+<div class="flex flex-row w-screen h-7rem align-items-center justify-content-between total">
+  <div class="options1 p-8 w-17rem">
+    <i class="pi pi-bars text-5xl cursor-pointer" (click)="teste()"></i>
+  </div>
+  <div class="logo">
+    <h1>LONELLO</h1>
+  </div>
+  <div class="options2 w-17rem flex justify-content-evenly">
+    <i class="pi pi-shopping-cart text-5xl cursor-pointer"></i>
+    <i class="pi pi-user text-5xl cursor-pointer"></i>
+  </div>
+</div>
+<p-sidebar [(visible)]="mobileMenu">
+
+</p-sidebar>

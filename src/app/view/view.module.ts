@@ -1,8 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ScreenComponent } from './screen.component';
-import { NavbarComponent } from './navbar/navbar.component';
+import { ScreenComponent } from './screen/screen.component';
+import { NavbarComponent } from './nav/navbar.component';
+import { ViewRoutingModule } from './view-routing.module';
+
+import { SidebarModule } from "primeng/sidebar";
+import { ButtonModule } from 'primeng/button';
+import {ListboxModule} from 'primeng/listbox';
+import {GalleriaModule} from 'primeng/galleria';
+import {ImageModule} from 'primeng/image';
 
 
 @NgModule({
@@ -12,6 +19,15 @@ import { NavbarComponent } from './navbar/navbar.component';
   ],
   imports: [
     CommonModule,
+    ViewRoutingModule,
+    SidebarModule,
+    ButtonModule,
+    ListboxModule,
+    GalleriaModule,
+    ImageModule
+  ],
+  exports: [
+    NavbarComponent
   ]
 })
-export class ScreenModule { }
+export class ViewModule { }
