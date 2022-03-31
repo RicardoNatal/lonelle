@@ -10,9 +10,39 @@
   text-align: center;
 }
 
+.options2 {
+  display: flex;
+}
+
+.options1 {
+  padding: 5rem;
+  width: 20rem;
+}
+
+
 .logo h1 {
   font-family: 'Lora', serif;
   letter-spacing: 5px;
   font-weight: 300;
   font-size: 2.2rem;
+}
+
+@media (max-width: 900px) {
+  .options2 {
+    display: none;
+  }
+
+  .options1 {
+    padding: 3rem;
+    height: 100%;
+    width: 40%;
+  }
+
+  .logo {
+    width: 60%;
+    height: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
 }
