@@ -10,12 +10,14 @@ import { ButtonModule } from 'primeng/button';
 import {ListboxModule} from 'primeng/listbox';
 import {GalleriaModule} from 'primeng/galleria';
 import {ImageModule} from 'primeng/image';
+import { HomeComponent } from '../home/home.component';
 
 
 @NgModule({
   declarations: [
     ScreenComponent,
-    NavbarComponent
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     CommonModule,

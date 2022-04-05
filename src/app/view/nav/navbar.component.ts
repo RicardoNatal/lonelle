@@ -14,9 +14,4 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  teste() {
-    console.log('oi')
-    this.mobileMenu = true;
-  }
-
 }

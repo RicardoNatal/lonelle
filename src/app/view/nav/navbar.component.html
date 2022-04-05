@@ -1,9 +1,9 @@
 <div class="flex flex-row w-screen h-7rem align-items-center justify-content-between total">
   <div class="options1 flex align-items-center">
-    <i class="pi pi-bars text-5xl cursor-pointer" (click)="teste()"></i>
+    <i class="pi pi-bars text-5xl cursor-pointer" (click)="mobileMenu = true;"></i>
   </div>
   <div class="logo">
-    <h1>LONELLO</h1>
+    <h1>LONELLE</h1>
   </div>
   <div class="options2 w-20rem justify-content-evenly">
     <i class="pi pi-shopping-cart text-5xl cursor-pointer"></i>
@@ -11,10 +11,10 @@
   </div>
 </div>
 <p-sidebar [(visible)]="mobileMenu">
-  <ul>
-    <li>Meu carrinho</li>
-    <li>Meu perfil</li>
-    <li></li>
-    <li></li>
+  <ul class="list-none flex flex-column justify-content-evenly h-25rem w-full lista">
+    <li class="text-2xl cursor-pointer l1">Meu carrinho</li>
+    <li class="text-2xl cursor-pointer l2">Meu perfil</li>
+    <li class="text-2xl cursor-pointer l3">Minhas compras</li>
+    <li class="text-2xl cursor-pointer l4">Sobre nós</li>
   </ul>
 </p-sidebar>

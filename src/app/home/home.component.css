@@ -1,0 +1,30 @@
+.fundo {
+  height: 50rem;
+  background-image: url('./../images/fundo-foto.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.fundo h1 {
+  font-family: 'Space Mono', monospace;
+}
+
+.fundo h1::selection {
+  color: var(--color2);
+}
+
+.fundo button {
+  outline: none;
+  border: none;
+  height: 33px;
+  font-size: 1.05rem;
+  background-color: white;
+  color: var(--color1);
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: 1000;
+}
+
+.fundo button:hover {
+  color: var(--color2);
+}

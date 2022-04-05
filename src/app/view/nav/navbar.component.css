@@ -27,6 +27,65 @@
   font-size: 2.2rem;
 }
 
+.l1, .l2, .l3, .l4 {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.l1, .l2, .l3, .l4 {
+  color: var(--color1);
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: 'Red Hat Mono', monospace;
+  letter-spacing: 1px;
+  border: none;
+}
+
+.l1::after, .l2::after, .l3::after, .l4::after {
+  content: '';
+  height: 1px;
+  width: 0%;
+  background-color: var(--color1);
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+.l1:hover::after {
+  content: '';
+  height: 1px;
+  width: 75%;
+  background-color: var(--color1);
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+.l2:hover::after {
+  content: '';
+  height: 1px;
+  width: 62%;
+  background-color: var(--color1);
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+.l3:hover::after {
+  content: '';
+  height: 1px;
+  width: 88%;
+  background-color: var(--color1);
+  display: block;
+  transition: .5s ease-in-out;
+}
+
+.l4:hover::after {
+  content: '';
+  height: 1px;
+  width: 56.5%;
+  background-color: var(--color1);
+  display: block;
+  transition: .5s ease-in-out;
+}
+
 @media (max-width: 900px) {
   .options2 {
     display: none;
