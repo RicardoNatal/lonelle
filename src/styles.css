@@ -1,7 +1,7 @@
 @import "~primeicons/primeicons.css";
 @import "~primeng/resources/primeng.min.css";
 @import "primeng/resources/themes/arya-orange/theme.css";
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:ital,wght@0,300;1,300&family=Red+Hat+Mono:wght@300&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Open+Sans:ital,wght@0,300;1,300&family=Raleway:wght@100&family=Red+Hat+Mono:wght@300&family=Space+Mono&display=swap');
 
 :root {
   --color1: #ffbd6e;

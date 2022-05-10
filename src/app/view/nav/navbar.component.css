@@ -1,5 +1,5 @@
 .total {
-  background-color: var(--color2);
+  background: linear-gradient(to right, #202424, #3a3a3a);
 }
 
 .options1, .logo, .options2 {
@@ -36,8 +36,8 @@
   color: var(--color1);
   text-transform: uppercase;
   font-weight: 300;
-  font-family: 'Red Hat Mono', monospace;
-  letter-spacing: 1px;
+  font-family: 'Mono Space', monospace;
+  letter-spacing: 2px;
   border: none;
 }
 
